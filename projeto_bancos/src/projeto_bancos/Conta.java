@@ -4,8 +4,23 @@ public class Conta {
 
 
 	int numero;
-	double saldo;
+	private double saldo;
 
+	
+	void setSaque(double valor) {
+		if(valor <= this.saldo) {
+			this.saldo -= valor;
+	        }
+		
+		}
+	
+	double getSaldo() {
+		
+		return this.saldo;
+		
+	    }
+	
 	}
+
 
 
