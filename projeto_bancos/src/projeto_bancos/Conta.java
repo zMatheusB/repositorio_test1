@@ -5,6 +5,7 @@ public class Conta {
 
 	int numero;
 	private double saldo;
+	private static int valorAleatorio = 1; // Vai manter as alterações (static)
 
 	
 	void setSaque(double valor) {
@@ -19,6 +20,12 @@ public class Conta {
 		return this.saldo;
 		
 	    }
+	
+	public void setNumeroAleatorio() {
+		this.numero = valorAleatorio;
+		valorAleatorio++;
+		
+	}
 	
 	}
 

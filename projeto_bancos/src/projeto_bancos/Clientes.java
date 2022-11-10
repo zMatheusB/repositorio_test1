@@ -6,11 +6,12 @@ public class Clientes {
 	int numeroCPF; //Modificador
 	
 	Conta conta; // Criando o objeto (conta)
+	
 // Construtor
-	public Clientes(String name, int number) { // Ao criar o new devemos informar //os valores (ao instanciar).
+	
+		public Clientes(String name) { // Ao criar o new devemos informar //os valores (ao instanciar).
 		this.nome = name;
-		this.numeroCPF = number;
-		
+
 		
 		
 		}

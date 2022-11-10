@@ -5,7 +5,7 @@ public class Principal {
 	public static void main(String[] args) {
 		
 		
-		Clientes cliente1 = new Clientes("Matheus", 1234);
+		Clientes cliente1 = new Clientes("Matheus");
 		
 		cliente1.conta = new Conta(); // Liga a classe com o objeto
 		cliente1.conta.numero = 9999;
@@ -16,10 +16,10 @@ public class Principal {
 		
 		Conta conta1 = new Conta();
 		conta1.numero = 8888;
-		Clientes cliente2 = new Clientes("Guilherme", 5555);
+		Clientes cliente2 = new Clientes("Guilherme");
 		
 		cliente2.conta = conta1;
-		Clientes cliente3 = new Clientes("Juliano", 3333);
+		Clientes cliente3 = new Clientes("Juliano");
 		
 		//____________________________________________________________________
 		
@@ -28,6 +28,17 @@ public class Principal {
 		System.out.println(cliente1.conta.getSaldo());
 		
 		//____________________________________________________________________
+		Clientes clienteA = new Clientes("Victor");
+		clienteA.numeroCPF = 1111;
+		clienteA.conta = new Conta();
+		System.out.println(clienteA.conta.numero);
+		
+		//____________________________________________________________________
+		Clientes clienteB = new Clientes("Carlos");
+		clienteB.numeroCPF = 2222;
+		clienteB.conta = new Conta();
+		System.out.println(clienteB.conta.numero);
+		
 		
 	}
 
