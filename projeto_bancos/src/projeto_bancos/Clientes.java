@@ -3,7 +3,7 @@ package projeto_bancos;
 public class Clientes {
 
 	String nome;
-	int numeroCPF; //Modificador
+	int numeroCPF; //Modificadoe
 	
 	Conta conta; // Criando o objeto (conta)
 	

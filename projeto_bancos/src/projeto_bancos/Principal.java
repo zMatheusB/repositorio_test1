@@ -28,12 +28,12 @@ public class Principal {
 		System.out.println(cliente1.conta.getSaldo());
 		
 		//____________________________________________________________________
-		Clientes clienteA = new Clientes("Victor");
+		Clientes clienteA = new Clientes("Victorr");
 		clienteA.numeroCPF = 1111;
 		clienteA.conta = new Conta();
 		System.out.println(clienteA.conta.numero);
 		
-		//____________________________________________________________________
+		//___________________________________________________________________
 		Clientes clienteB = new Clientes("Carlos");
 		clienteB.numeroCPF = 2222;
 		clienteB.conta = new Conta();
